@@ -43,7 +43,7 @@ namespace ReactCoin.Hubs
                     Console.WriteLine("Coin data is null."); // Consola yazdırma veya gerekli hata işleme mekanizmasını uygulayabilirsiniz.
                 }
                 // Belirli bir süre beklemek için Task.Delay kullanın
-                await Task.Delay(TimeSpan.FromSeconds(30)); //   saniye bekle
+                await Task.Delay(TimeSpan.FromSeconds(5)); //   saniye bekle
             }
         }
     }

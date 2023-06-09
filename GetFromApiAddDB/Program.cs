@@ -109,7 +109,7 @@ class Program
                     Console.WriteLine(i + "." + "istekte bulunup db ye kaydediyor");
 
                     // Belirli bir süre beklemek için Task.Delay kullanılır
-                    await Task.Delay(TimeSpan.FromSeconds(25));
+                    await Task.Delay(TimeSpan.FromSeconds(5));
                     Console.WriteLine("bekleniyor");
                 }
             });
